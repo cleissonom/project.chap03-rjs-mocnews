@@ -1,0 +1,18 @@
+.subscribeButton {
+   width: 16.25rem;
+   height: 4rem;
+
+   background-color: var(--red-500);
+   color: var(--black);
+   font-size: 1.5rem;
+   font-weight: 700;
+
+   border-radius: 4rem;
+   border: none;
+
+   transition: filter 200ms;
+
+   &:hover {
+      filter: brightness(1.2);
+   }
+}
