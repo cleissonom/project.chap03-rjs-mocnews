@@ -31,12 +31,11 @@ export default function Home({ product }: HomeProps) {
           </p>
           <SubscribeButton productId={product.priceId} />
         </section>
-        <Image
+        <img
           style={{ zIndex: -1 }}
           src="/images/person.svg"
           width="334px"
           height="838px"
-          layout="intrinsic"
           alt="Developer coding"
         />
       </main>
